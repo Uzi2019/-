@@ -21,6 +21,7 @@ public class LoopQueue {
         this.size=n;
     }
 
+
     public boolean addData(int m){
         if((tail+1)%size==head){
             return false;
